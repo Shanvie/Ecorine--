@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1,
+h4,
+a {
+    color: #00242C;
+}
+
+p {
+    line-height: 1.5rem;
+    color: #333333;
+    font-size: 20px;
+}
+
+/* navigation */
+.navigation {
+    z-index: 1000;
+    width: 100%;
+    position: relative;
+    min-height: 60px;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+
+}
+
+.navbar-light .navbar-brand {
+    color: #00242C !important;
+    font-size: 2rem;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333333;
+    font-weight: 600;
+    padding-left: 1.2rem !important;
+    padding-right: 1.2rem !important;
+
+}
+
+/* banner */
+.banner,
+#our-works {
+    background-image: linear-gradient(to left top, #00242c, #004f55, #007f74, #38b188, #81e291);
+    color: #fff;
+}
+
+/* buttons */
+.btn {
+    background-color: #00242C !important;
+    border-radius: 2rem !important;
+    color: #fff !important;
+    border: #81E291 !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.btn:hover {
+    background-color: #007f74 !important;
+    border-radius: 2rem !important;
+    color: #fff !important;
+}
+
+h1,
+h5 {
+    font-weight: 700;
+}
+
+.testimonials img {
+    border-radius: 3rem;
+}
+
+.testimonials span {
+    font-style: italic;
+}
+
+.icon {
+    width: 100% !important;
+    color: #fff !important;
+    background-color: #333333;
+    border-radius: 28px;
+    height: 50px;
+    max-width: 50px;
+    background-size: 20%;
+    padding: 16px;
+    margin: auto;
+}
+
+hr {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.footer a {
+    text-decoration: none;
+    font-style: italic;
+    color: #38b188;
+}
+
+.footer {
+    background-color: #00242C;
+}
